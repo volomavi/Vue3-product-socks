@@ -13,6 +13,12 @@ const app = Vue.createApp({
         removeCart(id){
             this.cart.pop(id)
         },
+        // removeById(id) {
+        //     const index = this.cart.indexOf(id)
+        //         if (index > -1) {
+        //             this.cart.splice(index, 1)
+        //         }
+        // },
     }
     
 })    
